@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoDevAImobile</string>
+    <string name="welcome_message">Welcome to AutoDevAImobile, your advanced conversational partner.</string>
+    <string name="internet_access_message">Accessing and interacting with the internet...</string>
+    <string name="personality_development_message">Developing personality and memory...</string>
+    <string name="personalized_response_message">Generating personalized response...</string>
+    <string name="code_generation_message">Generating code...</string>
+    <string name="programming_knowledge_message">Using knowledge of programming languages and libraries...</string>
+    <string name="user_interaction_message">Ready for user interaction...</string>
+    <string name="benefits_message">Benefits: Saves time by generating code, provides personalized responses, easy to interact with, can access and learn from the internet.</string>
+    <string name="conclusion_message">AutoDevAImobile is an innovative tool that provides personalized responses and generates code. It is user-friendly and easy to interact with, making it a valuable tool for anyone in need of code generation or a conversational partner.</string>
+</resources>
