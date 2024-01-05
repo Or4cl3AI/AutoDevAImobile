@@ -1,7 +1,8 @@
 repo_name: Or4cl3AI/AutoDevAImobile
 report_id: 2d8f49e5f413d6a3341f2a7ed92b9904
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-24T01:58:30+00:00'
+timestamp: '2024-01-05T08:34:24+00:00'
 requested_by: deepsource-io[bot]
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile/blob/main/AutoDevAImobile/build.gradle
   detection_source: AutoDevAImobile/build.gradle
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-23 05:40:41.000000000 Z
@@ -47,7 +51,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: AutoDevAImobile/build.gradle
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile/blob/main/AutoDevAImobile/build.gradle
   detection_source: AutoDevAImobile/build.gradle
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-23 05:40:41.000000000 Z
@@ -67,7 +71,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: AutoDevAImobile/build.gradle
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile/blob/main/AutoDevAImobile/build.gradle
   detection_source: AutoDevAImobile/build.gradle
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-23 05:40:41.000000000 Z
