@@ -1,0 +1,77 @@
+repo_name: Or4cl3AI/AutoDevAImobile
+report_id: 2d8f49e5f413d6a3341f2a7ed92b9904
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:34:24+00:00'
+requested_by: deepsource-io[bot]
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile/blob/main/AutoDevAImobile/build.gradle
+  detection_source: AutoDevAImobile/build.gradle
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-23 05:40:41.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile/blob/main/AutoDevAImobile/build.gradle
+  detection_source: AutoDevAImobile/build.gradle
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-23 05:40:41.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Or4cl3AI/AutoDevAImobile/blob/main/AutoDevAImobile/build.gradle
+  detection_source: AutoDevAImobile/build.gradle
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-23 05:40:41.000000000 Z
